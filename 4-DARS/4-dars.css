@@ -1,0 +1,182 @@
+header{
+    background-color: rgb(71, 66, 66);
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    text-align: center; 
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header h1{
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+section.banner{
+    position: relative;
+}
+
+section .welcome{
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    top: 55%;
+    font-size: 70px;
+}
+
+section .welcome h2{
+    font-size: 40px;
+}
+
+section span{
+    font-size: 2em;
+}
+
+nav ul{
+    margin: 0 auto; 
+    text-wrap: nowrap;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration:none;
+}
+
+nav{
+    padding: 30px;
+    position: sticky;
+    top: 100px;
+    text-wrap: nowrap;
+    background-color: lemonchiffon;
+}
+
+nav li a.join{
+    color: red;
+}
+
+main{
+    padding: 0 40px;
+    margin: 80px auto;
+    max-width: 100%;
+    width: 1200px;
+    box-sizing: border-box;
+}
+
+main h2 {
+    font-size: 36px;
+    color: rgb(226, 84, 84);
+}
+
+main p{
+    line-height: 2em;
+}
+
+main ul.images li img{
+    width: 100%;
+}
+
+ul.images li{
+    display: inline-block;
+    width: 400px;
+    margin: 20px 20px;
+}
+
+section.join-game{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+section h2{
+    font-size: 30px;
+}
+
+form input {
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 5px solid white;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(73, 68, 68);
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width:900px)
+{
+    section .welcome h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    section .welcome h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    header{
+        position: relative;
+    }
+
+    section .welcome h2{
+        font-size: 40px;
+    }
+    section span{
+        font-size: 1em;
+    }
+    section div.welcome{
+        padding: 5px;
+        position: relative;
+        text-align: center;
+       
+    }
+
+    section div.welcome h2{
+        font-size: 20px;
+    }
+
+    section .welcome h2 br{
+        display: none;
+    }
+
+    header{
+        position: relative;
+    }
+
+    nav.main-nav ul li{
+        display: block;
+        text-align: center;
+    }  
+    
+    ul.images li{
+        display: block;
+    }
+    
+    nav.main-nav{
+        text-align: center;
+        width: 100%;
+        top: 0px !important;
+    }
+}

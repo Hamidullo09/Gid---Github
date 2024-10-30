@@ -1,0 +1,19 @@
+.head{
+    background-color: yellow;
+    font-size: 40px;
+}
+
+p{
+    background-color: aquamarine;
+    font-size: 25px;
+    border: 2px solid red;
+}
+
+p:nth-child(even){
+    color: red
+
+}
+
+a[href]{
+    text-decoration: none;
+}
