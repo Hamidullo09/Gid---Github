@@ -84,14 +84,18 @@ main p{
     line-height: 2em;
 }
 
-main ul.images li img{
+section.images img{
     width: 100%;
 }
 
-ul.images li{
-    display: inline-block;
+.images {
+    /* display: inline-block; */
     width: 400px;
     margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content:space-around;
 }
 
 section.join-game{

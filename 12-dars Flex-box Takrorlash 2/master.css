@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+section  aside{
+    padding: 10px;
+    width: 20%;
+    height: 100dvh;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    position: sticky;
+    top: 0;
+}
+
+section  aside a{
+    width: 100%;
+
+    display: flex;    
+    flex-direction: row;
+    gap: 10px;
+}
+section img{
+    width: 470px;
+    height: 485px;
+    border-radius: 50%;
+}
+
+section  aside  section{
+    width: 100%;
+}
+
+section  main{
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+section  main  section{
+    scroll-snap-type: y mandatory;
+    height: 100dvh;
+
+    color: black;
+    text-align: center;
+}
+
+section  main  section:nth-child(odd){
+    background-color: rgb(255, 255, 122);
+}
+
+section  main  section:nth-child(even){
+    background-color:rgb(165, 165, 165);
+}

@@ -1,0 +1,30 @@
+*{
+    background-color: yellow;
+}
+header {
+    color: aqua;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main img {
+    width: 600px;
+    padding-top: 15px;   
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+footer{
+    border: 1px solid black;
+    text-align: center;
+}
+h4{
+    border: 3px solid black;
+    column-count: 3;
+}
