@@ -89,9 +89,9 @@ section.images img{
 }
 
 .images {
-    /* display: inline-block; */
     width: 400px;
     margin: 20px 20px;
+
     display: flex;
     flex-direction: row;
     gap: 20px;
