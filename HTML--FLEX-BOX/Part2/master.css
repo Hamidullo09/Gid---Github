@@ -32,7 +32,7 @@ header ul li{
 
 header a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
     font-size: 25px;
 }
 
@@ -56,7 +56,7 @@ main section:nth-child(odd){
 }
 
 main section:nth-child(even){
-    background-color:aquamarine;
+    background-color:aqua;
 }
 
 main section#about_me img{
@@ -132,12 +132,6 @@ main section#contact form{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-}
-
-section#skills div{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
 }
 
 footer{
